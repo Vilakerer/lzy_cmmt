@@ -1,4 +1,4 @@
-branch_check(){
+smrt_cmmt(){
     branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
     len=$#
     if [[ $len > 1 ]]; then
@@ -10,5 +10,4 @@ branch_check(){
     fi
     git commit -m "$1"
     git push origin "$branch"
-    # Comment for test
 }
