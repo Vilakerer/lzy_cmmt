@@ -10,4 +10,5 @@ branch_check(){
     fi
     git commit -m "$1"
     git push origin "$branch"
+    # Comment for test
 }
