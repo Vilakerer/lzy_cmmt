@@ -1,4 +1,4 @@
-smrt_cmmt(){
+lzy_cmmt(){
     branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
     len=$#
     if [[ $len > 1 ]]; then
